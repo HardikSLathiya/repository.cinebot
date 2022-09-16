@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.cinebot.hotstar" name="Disney+ Hotstar" provider-name="cinebot" version="0.0.1">
+<addons><addon id="plugin.video.cinebot.hotstar" name="Disney+ Hotstar" provider-name="cinebot" version="0.0.2">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.codequick" version="1.0.2" />
@@ -10,7 +10,8 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Stream Movies, TV Shows and More from Disney+ Hotstar in Kodi.</summary>
-        <description lang="en_GB">Disney+ Hotstar (erstwhile Hotstar) is India’s largest premium streaming platform that
+        <description lang="en_GB">
+            Disney+ Hotstar (erstwhile Hotstar) is India’s largest premium streaming platform that
             has changed the way Indians watch their entertainment - from their favourite TV shows and movies to sporting
             extravaganzas. With the widest range of content in India, Disney+ Hotstar offers more than 100,000 hours of
             TV Shows and Movies in 8 languages, regional and national News, and coverage of every major global sporting
@@ -23,8 +24,9 @@
             Apple App Store. The app’s success reflects its highly evolved video streaming technology as well as the
             quality of experience across devices and platforms.
         </description>
-        <disclaimer lang="en_GB">This plugin is not officially commissioned/supported by Hotstar. The trademark
-            "Hotstar" is registered by "Novi Digital Entertainment Private Limited (Novi)"
+        <disclaimer lang="en_GB">
+            This plugin is not officially commissioned/supported by Hotstar. The trademark "Hotstar" is registered by
+            "Novi Digital Entertainment Private Limited (Novi)"
         </disclaimer>
         <license>MIT</license>
         <source>https://github.com/HardikSLathiya/plugin.video.cinebot.hotstar</source>
